@@ -10,4 +10,9 @@ public class Calculator {
 		return i-j;
 	}
 
+	public static Object multiply(int i, int j) {
+		// TODO Auto-generated method stub
+		return i*j;
+	}
+
 }
