@@ -15,4 +15,12 @@ public class Calculator {
 		return i*j;
 	}
 
+	public static Object divide(int i, int j) {
+		double a = (double)i;
+		double b = (double)j;
+		double result = a/b;
+
+		return result;
+	}
+
 }
