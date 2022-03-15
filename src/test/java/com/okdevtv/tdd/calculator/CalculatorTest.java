@@ -10,7 +10,10 @@ public class CalculatorTest {
 	public void testAdd() {
 		assertEquals(3, Calculator.add(1,2));
 	}
-	// testSubtract
+	@Test
+	public void testSubtract() {
+		assertEquals(2, Calculator.subtract(3,1));
+	}
 	// testMultiply
 	// testDivide
 
